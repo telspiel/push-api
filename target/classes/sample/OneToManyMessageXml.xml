@@ -1,0 +1,70 @@
+<xmlPushRequest username="ashish" pin="pass1">
+	<campaignName>test-campaign</campaignName>
+	<domain>ttly.in</domain>
+	<convertUrl>Y</convertUrl>
+	<crmUrl>https://google.com</crmUrl>
+	<entityId>1234567890</entityId>
+	<data>
+		<from>TMKPAL</from>
+		<recipientList>
+			<recipient>
+				<destAddress>8826928130</destAddress>
+				<custref>a</custref>
+			</recipient>
+			<recipient>
+				<destAddress>9953870879</destAddress>
+				<custref>b</custref>
+			</recipient>
+			<recipient>
+				<destAddress>9953097879</destAddress>
+				<custref>b</custref>
+			</recipient>
+		</recipientList>
+		<message>
+			<templateId>0987654321</templateId>
+			<messageType>UC</messageType>
+			<messageTxt>092F09390020090F09150020092A093009400915094D093709230020093809020926094709360020093909480964
+			</messageTxt>
+		</message>
+	</data>
+	<data>
+		<from>TMKPAL</from>
+		<recipientList>
+			<recipient>
+				<destAddress>8826928130</destAddress>
+				<custref>a</custref>
+			</recipient>
+			<recipient>
+				<destAddress>9953870879</destAddress>
+				<custref>b</custref>
+			</recipient>
+			<recipient>
+				<destAddress>9953097879</destAddress>
+				<custref>b</custref>
+			</recipient>
+		</recipientList>
+		<message>
+			<templateId>0987654321</templateId>
+			<messageType>UC</messageType>
+			<messageTxt>092F09390020090F09150020092A093009400915094D093709230020093809020926094709360020093909480964
+			</messageTxt>
+		</message>
+	</data>
+</xmlPushRequest> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

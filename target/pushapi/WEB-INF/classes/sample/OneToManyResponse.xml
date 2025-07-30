@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<xmlPushResponse>
+	<recipientList>
+		<recipient>
+			<code>6001</code>
+			<desc>Message received by platform.</desc>
+			<timestamp>2020-06-27 01:10:20.927</timestamp>
+			<destAddress>8826928130</destAddress>
+			<custref>a</custref>
+			<requestId>2813050011593200420927286</requestId>
+			<totalMessageParts>1</totalMessageParts>
+			<partMessageIdList>
+				<partMessageId>2813050011593200420927286</partMessageId>
+			</partMessageIdList>
+		</recipient>
+		<recipient>
+			<code>6001</code>
+			<desc>Message received by platform.</desc>
+			<timestamp>2020-06-27 01:10:20.929</timestamp>
+			<destAddress>9953870879</destAddress>
+			<custref>b</custref>
+			<requestId>7087950011593200420929473</requestId>
+			<totalMessageParts>1</totalMessageParts>
+			<partMessageIdList>
+				<partMessageId>7087950011593200420929473</partMessageId>
+			</partMessageIdList>
+		</recipient>
+		<recipient>
+			<code>6001</code>
+			<desc>Message received by platform.</desc>
+			<timestamp>2020-06-27 01:10:20.931</timestamp>
+			<destAddress>9953097879</destAddress>
+			<custref>b</custref>
+			<requestId>9787950011593200420931532</requestId>
+			<totalMessageParts>1</totalMessageParts>
+			<partMessageIdList>
+				<partMessageId>9787950011593200420931532</partMessageId>
+			</partMessageIdList>
+		</recipient>
+	</recipientList>
+</xmlPushResponse>

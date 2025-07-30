@@ -1,0 +1,28 @@
+JSON Post:
+
+{
+"username": "noesis",
+"password": "AYZ32432SFSDFDSF4324FSDFDSF",
+"senderid ": "FSPLGN",
+"userdomain": "ttly.in",
+"converturl": "y",
+"campaignname": "json-test-camp",
+"callbackurl": "http://xxxxxxx.com",
+"entityid": "1234567890"
+"smslist": [
+				{
+					"text": "this is a test http://google.com message",
+					"mobiles": "9953870879,9953870879"
+					"messagetype" : "PM",
+					"custref":"abc",
+					"templateid":"0987654321"
+				}, 
+				{
+					"sms": "this is a test message 2",
+					"mobiles": "9953870879"
+					"messagetype" : "PM",
+					"custref":"abc",
+					"templateid":"098765343434"
+				}
+			]
+}

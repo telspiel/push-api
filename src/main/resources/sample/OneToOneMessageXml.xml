@@ -1,0 +1,26 @@
+<xmlPushRequest username="ashish_client" pin="cf5K30Ir94SLNB0fqcTBcjIWCx9iPwC2">
+	<campaignName>test-campaign</campaignName>
+	<domain>gmly.in</domain>
+	<convertUrl>Y</convertUrl>
+	<crmUrl>https://google.com</crmUrl>
+	<entityId>1234567890</entityId>
+	<data>
+		<from>TMKPAL</from>
+		<recipientList>
+			<recipient>
+				<destAddress>8826928130</destAddress>
+				<custref>a</custref>
+			</recipient>
+		</recipientList>
+		<message>
+			<templateId>0987654321</templateId>
+			<messageType>PM</messageType>
+			<messageTxt>hello world https://google.co.in end of text
+			</messageTxt>
+		</message>
+	</data>
+</xmlPushRequest> 
+
+
+
+

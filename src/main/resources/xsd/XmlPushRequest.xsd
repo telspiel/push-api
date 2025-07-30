@@ -1,0 +1,45 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="xmlPushRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="campaignName" minOccurs="0"/>
+        <xs:element type="xs:string" name="domain" minOccurs="0"/>
+        <xs:element type="xs:string" name="convertUrl" minOccurs="0"/>
+        <xs:element type="xs:string" name="crmUrl" minOccurs="0"/>
+        <xs:element type="xs:string" name="entityId" minOccurs="0"/>
+        <xs:element name="data" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="from"/>
+              <xs:element name="recipientList">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="recipient" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:long" name="destAddress"/>
+                          <xs:element type="xs:string" name="custref" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="message">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="templateId" minOccurs="0"/>
+                    <xs:element type="xs:string" name="messageType"/>
+                    <xs:element type="xs:string" name="messageTxt"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="username"/>
+      <xs:attribute type="xs:string" name="pin"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
