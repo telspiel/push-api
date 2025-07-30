@@ -114,6 +114,7 @@ public class SendOneToOneMessageController {
 		try {
 
 			logger.info("check for client ip");
+			logger.info("check for client ip.............117");
 			ipAddress = request1.getHeader("X-Forwarded-For"); // we collect ip of client.
 			logger.info("client ip from header" + ipAddress);
 			// String ipAddress = request1.getRemoteAddr();
